@@ -31,7 +31,7 @@ function ch0Switch(inner) {
   }
   else if(inner == "previous") {
     localStorage.setItem("ch0", "print");
-    window.top.open('/chapter0/index.html','_self');
+    window.top.open('/pypilAcademy/chapter0/index.html','_self');
   }
 }
 
