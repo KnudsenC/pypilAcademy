@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Knudsen Academy</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="topNav">
+  <button class="previous" onclick="ch0Switch('previous')">&#8592;</button>
+  <button class="next" onclick="ch1Switch(true)">&#8594;</button>
+</div>
+
+<h1>Python - Variables - Boxes</h1>
+
+<p>Variables are Python’s way of storing information. This is why Python variables are similar to boxes.</p>
+
+<img src="img/box.png" alt="image of box with an arrow going in">
+
+<p>With boxes, we put a label on the box to detail what’s inside, and we put certain items inside the box. We can also look inside the box and tell what’s inside.
+</p>
+
+<p>For example, let’s take a box and label it “socks,” and put socks inside. It’s a sock box! When we look inside the box, we see socks. So, if our friend asks us what’s inside the “socks box,” we can look inside and say “socks!”
+</p>
+
+<img src="img/socks.png" alt="image of a sock going into a box labeled socks">
+
+<p>Now, Python variables act much the same way. In Python, we first make a variable (a box,) and we give that variable a name. 
+</p
+
+<img src="img/varBox.png" alt="variables are equal to boxes">
+
+<p>Next, we put an item (only one) inside the variable. The main items we can put in the variable are integers, strings, and booleans. Now, those words sound a bit complex, but what they really mean is numbers, words, and “trues and falses.”
+</p>
+
+<p>So when we consider what items go inside Python variables, just remember numbers, words, and “trues and falses.” (There are also lists, but we will get back to those.)
+</p>
+
+<img src="img/isb.png" alt="integers are 1 2 3, strings are a b c, and booleans are true/false.">
+
+<p>Let’s start with Python numbers, numbers are what the name implies: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, and forever until infinity. And so, let’s put the number <strong>5</strong> in a variable named <strong>num</strong>. In Python, we type: <strong><u>num = 5</u></strong>
+</p>
+
+<img src="img/num.png" alt="num = 5">
+
+<p>Next, let’s look at Python words. Python words are denoted by quotation marks, these things: “ ”. It’s just like when you’re quoting somebody’s words. So, in Python, let’s put the word <strong>hello</strong>strong> inside a variable named <strong>word</strong>strong>. In Python, we type: <strong><u>word = “hello”</u></strong>
+</p>
+
+<img src="img/word.png" alt="word = hello">
+
+<p>Lastly, let’s play with Python “trues and falses.” Trues and falses work in Python like how they work in English. For example, if I ask somebody, “is the sun a star?” they would reply “<strong>True</strong>.” Or, perhaps if I ask them, “Is 5 more than 10?” they would reply “<strong>False</strong>.” In short, there are only two states, <strong>True or False</strong>. So, in Python, we can put either in a variable. 
+</p>
+
+<p>For example, to put <strong>True</strong> in a variable named question, we type: <strong><u>question = True</u></strong> and to put <strong>False</strong> in a variable named quire, we type: <strong><u>quire = False.</u></strong>
+</p>
+
+<img src="img/question.png" alt="question = True, quire = False">
+
+<p>But, be careful, if you give two variables the same name, Python will only replace the old one. So, if you put <strong><u>num = 5</u></strong>, and later put <strong><u>num = 7</u></strong>, the <strong>num</strong> variable becomes <strong>7</strong> and <strong>5</strong> is discarded. The same goes for all types of variables.</p>
+
+<p>Okay, but Python, as with boxes, can also look inside variables. With the “print” command, Python tells us what’s inside a variable (a box).
+</p>
+
+<img src="img/look.png" alt="Python looking at a box named num">
+
+<p>In Python, just type: <strong><u>print()</u></strong>, and then inside the parentheses, these things: (), put the name of the variable you want Python to look inside; for me, I want Python to look inside the “num” variable. So, I’ll type: <strong><u>print(num)</u></strong>. And lastly, click the run button, then Python will tell you what’s inside the chosen variable.
+</p>
+
+<img src="img/5.png" alt="num = 5, print(num), result: 5">
+
+<p>Python can even take things out of variables and interact with them. For example, if you type <strong><u>print(6 + 5)</u></strong>, Python returns <strong>11</strong>. Well, we can do the same thing with number variables. First, make two different variables, one called  <strong>num1</strong> and the other called <strong>num2</strong>, and put numbers inside these variables. Next, type: <strong><u>print(num1 + num2)</u></strong>. And, Python returns the result.
+</p>
+
+<img src="img/11.png" alt="num1 = 6, num2 = 5, print(num1 + num2), result: 11">
+
+
+<script src="/script.js"></script>  
+</body>
+
+</html>

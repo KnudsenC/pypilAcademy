@@ -1,0 +1,70 @@
+/* FOR IFRAME */
+h1 {
+  font-family: georgia;
+  font-size: 2em;
+}
+p {
+  font-family: georgia;
+  font-size: 1.5em;
+  width: 75%;
+}
+img {
+  width: 500px;
+  padding: 12px 20px;
+}
+ol ul, li {
+  font-family: georgia;
+  font-size: 1.2em;
+}
+/* FOR IFRAME */
+
+.next {
+  padding: 12px 20px;
+  background-color: #02FF00;
+  color: #FFF;
+  font-family: times-new-roman;
+  font-size: 2em;
+}
+.next:hover {
+  margin: auto;
+  padding: 12px 20px;
+  background-color: #01f200;
+  color: #FFF;
+  font-family: times-new-roman;
+}
+.next:active {
+  margin: auto;
+  padding: 12px 20px;
+  background-color: #01e500;
+  color: #FFF;
+  font-family: times-new-roman;
+}
+
+.previous {
+  padding: 12px 20px;
+  background-color: #f20000;
+  color: #FFF;
+  font-family: times-new-roman;
+  font-size: 2em;
+}
+.previous:hover {
+  margin: auto;
+  padding: 12px 20px;
+  background-color: #f20000;
+  color: #FFF;
+  font-family: times-new-roman;
+}
+.previous:active {
+  margin: auto;
+  padding: 12px 20px;
+  background-color: #f20000;
+  color: #FFF;
+  font-family: times-new-roman;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topNav {
+  background-color: #4169e1;
+}
